@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>CSS Table</title>
+<style>
+table, th, td {
+    border: 3px solid green;
+}
+table {
+    width: 50%;
+    border-collapse: collapse;
+}
+th {
+    height: 100px;
+    text-align: center;
+}
+td {
+    height: 25%;
+    text-align: right;
+    padding: 10px;
+}
+h2 {
+    background-color: orchid;
+}
+th{
+    background-color:lightblue;
+    color:navy;
+}
+tr.a {
+    background-color: orange;
+    color:black;
+}
+tr.b {
+    background-color: turquoise;
+    color:indigo;
+}
+</style>
+</head>
+<body>
+<h2>Groceries</h2>
+
+<table>
+    <tr>
+        <th>Dairy</th>
+        <th>Meat</th>
+        <th>Cost</th>
+    </tr>
+    <tr class="a">
+        <td>Gallon of Milk</td>
+        <td>Hamburger</td>
+        <td>$15</td>
+    </tr>
+    <tr class="a">
+        <td>Cheese</td>
+        <td>Steak</td>
+        <td>$20</td>
+    </tr>
+    <tr class="b">
+        <td>Total Cost</td>
+        <td></td>
+        <td>$35</td>
+    </tr>
+</table>
+
+</body>
+</html>
