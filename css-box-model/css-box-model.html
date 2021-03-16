@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>CSS Box Model</title>
+<style>
+div.a {
+    width: 300px;
+    border: 10px solid blue;
+    padding: 25px;
+    margin: 15px;
+}
+div.a {outline-color: crimson;}
+div.a {outline-style: dotted;}
+div.a {outline-width: 15px;}
+
+div.b {
+    width: 200px;
+    border-top: 30px solid yellowgreen;
+    border-bottom: 30px solid yellowgreen;
+    border-left: 25px solid hotpink;
+    border-right: 25px solid hotpink;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-right: 25px;
+    margin-left: 25px;
+}
+div.b {outline-color: cadetblue;}
+div.b {outline-style: dashed;}
+div.b {outline-width: 20px;}
+
+div.c {
+    width: 100px;
+    border-top: 10px solid green;
+    border-bottom: 15px solid darkmagenta;
+    border-left: 20px solid sandybrown;
+    border-right: 25px solid lawngreen;
+    padding-top: 2px;
+    padding-bottom: 3px;
+    padding-left: 4px;
+    padding-right: 5px;
+    margin-top: 5px;
+    margin-bottom: 6px;
+    margin-right: 7px;
+    margin-left: 8px;
+}
+div.c {outline-color: lightslategrey;}
+div.c {outline-style: groove;}
+div.c {outline-width: 10px;}
+</style>
+</head>
+<body>
+
+<div class="a">
+<p>
+content width: 300px<br>
+top margin: 15px<br>
+right margin: 15px<br>
+bottom margin: 15px<br>
+left margin: 15px<br>
+top border: 10px<br>
+right border: 10px<br>
+bottom border: 10px<br>
+left border: 10px<br>
+top padding: 25px<br>
+right padding: 25px<br>
+bottom padding: 25px<br>
+left padding: 25px<br>
+outline thickness: 15px<br>
+TOTAL BOX WIDTH: 515px
+</p>
+</div>
+
+<div class="b">
+<p>
+content width: 200px<br>
+top margin: 5px<br>
+right margin: 25px<br>
+bottom margin: 5px<br>
+left margin: 25px<br>
+top border: 30px<br>
+right border: 25px<br>
+bottom border: 30px<br>
+left border: 25px<br>
+top padding: 15px<br>
+right padding: 20px<br>
+bottom padding: 15px<br>
+left padding: 20px<br>
+outline thickness: 20px<br>
+TOTAL BOX WIDTH: 460px
+</p>
+</div>
+
+<div class="c">
+<p>
+content width: 100px<br>
+top margin: 5px<br>
+right margin: 7px<br>
+bottom margin: 6px<br>
+left margin: 8px<br>
+top border: 10px<br>
+right border: 25px<br>
+bottom border: 15px<br>
+left border: 20px<br>
+top padding: 2px<br>
+right padding: 5px<br>
+bottom padding: 3px<br>
+left padding: 4px<br>
+outline thickness: 10px<br>
+TOTAL BOX WIDTH: 220px
+</p>
+</div>
+</body>
+</html>
