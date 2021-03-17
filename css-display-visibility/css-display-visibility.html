@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>CSS Display and Visibility</title>
+<style>
+h1.a {
+    visibility: hidden;
+}
+h1.b {
+    display: none;
+}
+h1.c {
+    visibility: visible;
+}
+p.same {
+    display: inline;
+}
+img.image {
+    display: block;
+}
+</style>
+</head>
+<body>
+    <h1 class="a"> Testing testing 1</h1>
+    <h1 class="b"> testing 2</h1>
+    <h1 class="c"> testing 3</h1>
+
+    <p>car</p>
+    <p>car</p>
+    <p>car</p>
+    <p class="same">car</p>
+    <p class="same">car</p>
+    <p class="same">car</p>
+
+    <p>
+    <img src="images.png">
+    <img src="images.png">
+    <img src="images.png">
+    <img src="images.png" class="image">
+    <img src="images.png" class="image">    
+    <img src="images.png" class="image"> 
+    </p>
+</body>
+</html>
