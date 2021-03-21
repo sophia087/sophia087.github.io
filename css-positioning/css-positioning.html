@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>CSS Positioning</title>
+<style>
+img.one {
+    position: fixed;
+    bottom:100;
+    right:0;
+    width:300px;
+}
+img.two {
+    position: relative;
+    left: 50px;
+}
+img.three {
+    position: absolute;
+    top: 50px;
+    right: 100;
+    width: 100px;
+    height: 100px
+}
+img.four {
+    position: absolute;
+    left: 0px;
+    top: 700px;
+    width: 200px;
+    height: 200px;
+    z-index: -1;
+}
+img.five {
+    position: absolute;
+    left: 100px;
+    top: 800px;
+    width: 200px;
+    height: 200px;
+    z-index: 0;
+}
+img.six {
+    position: absolute;
+    left: 200px;
+    top: 900px;
+    width: 200px;
+    height: 200px;
+    z-index: 1
+}
+img.one {cursor:pointer;}
+img.two {cursor:progress;}
+img.three {cursor:crosshair;}
+img.four {cursor:grabbing;}
+img.five {cursor:no-drop;}
+img.six {cursor:row-resize;}
+p {cursor: all-scroll;}
+</style>
+</head>
+<body>
+    <p>
+    <img src="hydrangea-care.jpg" class="one">
+    <img src="1420683627376.jpeg" class="two">
+    <img src="red-roses.jpg" class="three">
+    <img src="html-color-codes-color-tutorials-hero.jpg" class="four">
+    <img src="fondo-abstracto-plumas-color-pastel_66899-1264.jpg" class="five">
+    <img src="AdobeStock_244200854-1200x600.jpeg" class="six">
+    </p>
+</body>
+</html>
