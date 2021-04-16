@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>CSS Image Gallery</title>
+<style>
+div.gallery {
+  border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+  background-color:lightblue;
+  color:orchid;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+body {
+    background-color:peachpuff;
+}
+</style>
+</head>
+<body>
+
+<div class="responsive">
+<div class="gallery">
+  <a href="Waimanalo-Beach.jpg">
+    <img src="Waimanalo-Beach.jpg" alt="Waimanalo Beach" width="600" height="400">
+  </a>
+  <div class="desc">Waimanalo is one of Hawaii's best beaches. This beach is primarily only known to locals so it is not crowded. </div>
+</div>
+</div>
+
+<div class="responsive">
+<div class="gallery">
+  <a href="VC_Experiences_ReopeningBeaches_RF_1156532604_1280x640 (1).jpg">
+    <img src="VC_Experiences_ReopeningBeaches_RF_1156532604_1280x640 (1).jpg" alt="Beach" width="600" height="400">
+  </a>
+  <div class="desc">This beach is known for their amazing sunsets. The waves perfectly reflect the sky and it creates a mirror image.</div>
+</div>
+</div>
+
+<div class="responsive">
+<div class="gallery">
+  <a href="types-of-beaches-June302020-1-min (1).jpg">
+    <img src="types-of-beaches-June302020-1-min (1).jpg" alt="Types of Beaches" width="600" height="400">
+  </a>
+  <div class="desc">Down in the islands of the Caribbean the waters are crystal clear. It makes it perfect for snorkeling.</div>
+</div>
+</div>
+
+<div class="responsive">
+<div class="gallery">
+  <a href="NR_OregonCoast_CannonBeach_Seaside__20279788_shutterstock_NLux (1).jpg">
+    <img src="NR_OregonCoast_CannonBeach_Seaside__20279788_shutterstock_NLux (1).jpg" alt="Oregon Beach" width="600" height="400">
+  </a>
+  <div class="desc">On the Oregon coast, there are large rock formations that make it seem like a place of fantasy.</div>
+</div>
+</div>
+
+<div class="responsive">
+<div class="gallery">
+  <a href="http___cdn.jpg">
+    <img src="http___cdn.jpg" alt="Beach at Dusk" width="600" height="400">
+  </a>
+  <div class="desc">This beach at dusk is the perfect time to visit. The evening brings a break from the heat of day.</div>
+</div>
+</div>
+
+<div class="responsive">
+<div class="gallery">
+  <a href="beach (1).jpg">
+    <img src="beach (1).jpg" alt="Relaxation on the Beach" width="600" height="400">
+  </a>
+  <div class="desc">This beach resort is the perfect place to relax and take a break from the stress of life.</div>
+</div>
+</div>
+
+<div class="responsive">
+<div class="gallery">
+  <a href="858_img-102 (1).jpg">
+    <img src="858_img-102 (1).jpg" alt="Sunset at the Beach" width="600" height="400">
+  </a>
+  <div class="desc">Down in Florida, there are some of the best beaches that offer beautiful sights.</div>
+</div>
+</div>
+
+<div class="responsive">
+<div class="gallery">
+  <a href="hawaii.jpg">
+    <img src="hawaii.jpg" alt="Hawaii" width="600" height="400">
+  </a>
+  <div class="desc">Here is another beach in Hawaii which again offers beautiful sights.</div>
+</div>
+</div>
+
+</body>
+</html>
