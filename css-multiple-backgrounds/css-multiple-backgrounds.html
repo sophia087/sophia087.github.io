@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>CSS Multiple Backgrounds</title>
+<style>
+#backgrounds {
+    background-image: url(glasses.png), url(george-washington-medium.jpg), url(tileablebackground.jpg);
+    background-position: right bottom, right bottom, left top;
+    background-repeat: no-repeat, no-repeat, repeat;  
+    background-size: 400px, 400px, auto;
+    padding: 450px;
+    background-position: 65px 70px, 110px 20px, 220px 100px;
+}
+#backgrounds2 {
+    background: url(glasses.png) no-repeat right bottom, url(george-washington-medium.jpg) no-repeat right bottom, url(tileablebackground.jpg) repeat top left;
+    background-size: 400px, 400px, auto;
+    padding: 450px;
+    background-position: 65px 70px, 110px 20px, 220px 100px;
+}
+html {
+    background: url(redbackground.jpg) no-repeat center fixed;
+    background-size: cover;
+}
+#hero {
+    background: url(hero.png) no-repeat center;
+    background-size: cover;
+    height: 500px;
+    position: relative;
+}
+</style>
+</head>
+<body>
+
+<div id="backgrounds"></div>
+<div id="backgrounds2"></div>
+<div id="hero">
+    <h1>Sophia Heckendorf</h1>
+</div>
+</body>
+</html>
