@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>CSS Gradients</title>
+<style>
+div.two {
+    height: 400px;
+    width: 400px;
+    background-image: linear-gradient(blue, pink);
+}
+div.three {
+    height: 400px;
+    width: 400px;
+    background-image: linear-gradient(to right, red, white, blue);
+}
+div.four {
+    height: 400px;
+    width: 400px;
+    background-image: linear-gradient(to bottom right, purple, blue, lightblue, gray);
+}
+div.five {
+    height: 400px;
+    width: 400px;
+    background-image: linear-gradient(to right, rgba(0,0,250,1), rgba(255,0,1,0.5), rgba(255,255,0,0.3), rgba(255,0,250,0.1), rgba(0,255,0,1));
+}
+div.tworepeat {
+    height: 400px;
+    width: 400px;
+    background-image: repeating-linear-gradient(to right, pink, orange 20%);
+}
+div.smoothbreak {
+    height: 400px;
+    width: 400px;
+    background-image: repeating-linear-gradient(to right, green, blue, green 25%);
+}
+div.radial {
+    height: 400px;
+    width: 400px;
+    background-image: radial-gradient(purple, lightblue, yellow, pink);
+}
+</style>
+</head>
+<body>
+<div class="two"></div>
+<div class="three"></div>
+<div class="four"></div>
+<div class="five"></div>
+<div class="tworepeat"></div>
+<div class="smoothbreak"></div>
+<div class="radial"></div>
+</body>
+</html>
