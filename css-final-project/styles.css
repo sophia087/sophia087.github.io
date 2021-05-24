@@ -1,0 +1,154 @@
+* {
+  box-sizing: border-box;
+}
+
+.header {
+    background-color: cadetblue;
+    color: #0b032d;
+    padding:20px;
+    text-align: center;
+    font-family: "Lucida Handwriting", cursive;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #0b032d;
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #843b62;
+  color:white;
+}
+
+.active {
+    background-color: #f67e7d;
+}
+
+.column {
+    float: left;
+    width: 50%;
+    padding: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.hotel {
+    position:absolute;
+    display: block;
+    margin-left: 25px;
+    margin-right: auto;
+    width: 500px;
+    height: 350px;
+}
+
+.airbnb {
+    position:absolute;
+    margin-left: auto;
+    margin-right: 0px;
+    top: 535px;
+    left: 950px;
+    width: 500px;
+    height: 350px;
+}
+
+.restaurant {
+    position:absolute;
+    display: block;
+    margin-left: 25px;
+    margin-right: auto;
+    width: 500px;
+    height: 350px;
+}
+
+.bar {
+    position:absolute;
+    margin-left: auto;
+    margin-right: 0px;
+    top: 535px;
+    left: 950px;
+    width: 500px;
+    height: 350px;
+}
+
+.nashville {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+    height: 450px;
+}
+
+.paragraph1 {
+    text-align: center;
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+.musicrow {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 966px;
+    height: 515px;
+    
+}
+
+.contact {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.footer {
+  background-color: #ffb997;
+  padding: 10px;
+  text-align: center;
+  position:relative;
+  top: 365px;
+}
+
+.early {
+    position:absolute;
+    margin-left: auto;
+    margin-right: 0px;
+    top: 425px;
+    left: 950px;
+    width: 500px;
+    height: 350px;
+}
+
+.battle {
+    position:absolute;
+    display: block;
+    margin-left: 100px;
+    margin-right: auto;
+    width: 500px;
+    height: 350px; 
+}
+
+.footerhome {
+  background-color: #ffb997;
+  padding: 10px;
+  text-align: center;
+  position:relative;
+  top: 5px;
+}
